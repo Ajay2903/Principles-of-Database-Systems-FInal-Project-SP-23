@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <style>
+      /* Styles for the form */
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"], input[type="email"], input[type="password"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      
+      input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #0069d9;
+      }
+      
+      /* Styles for the page title */
+      h1 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sign up</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="confirm-password">Confirm password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+      
+      <input type="submit" value="Sign up">
+    </form>
+  </body>
+</html>

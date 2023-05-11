@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="mainpage.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">
+          <img src="logo.png" alt="VOA logo">
+        </a>
+        <ul>
+          <li><a href="#">Attractions</a></li>
+          <li><a href="#">Shows</a></li>
+          <li><a href="#">Stores</a></li>
+          <li><a href="#">Discounts</a></li>
+          <li><a href="#">Admin</a></li>
+          <li><button id="login-button">Login</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Your main content goes here -->
+      <div class="grid">
+        <div><img class= "image" src="shows/att-1.png" alt="Attraction"><span>Great Escape</span></div>
+        <div><img class= "image" src="shows/att-2.png" alt="Attraction"><span>Marigo</span></div>
+        <div><img class= "image" src="shows/att-3.jpg" alt="Attraction"><span>Go Kart</span></div>
+        <div><img class= "image" src="shows/show-1.png" alt="Shows"><span>Circus</span></div>
+        <div><img class= "image" src="shows/show-2.png" alt="Shows"><span>Space Park</span></div>
+        <div><img class= "image" src="shows/show-3.jpg" alt="Shows"><span>Horrorland</span></div>
+      </div>
+      <!-- <div class="image-grid">
+        <div class="image"><img src="shows/att-1.png"></div>
+        <div class="image"><img src="shows/att-2.png"></div>
+        <div class="image"><img src="shows/att-3.jpg"></div>
+        <div class="image"><img src="shows/show-1.png"></div>
+        <div class="image"><img src="shows/show-2.png"></div>
+        <div class="image"><img src="shows/show-3.jpg"></div>
+      </div> -->
+    </main>
+    <footer>
+      <ul class="social-links">
+        <li><a href="#"><i class="fab fa-facebook-f">Facebook</i></a></li>
+        <li><a href="#"><i class="fab fa-twitter">Twitter</i></a></li>
+        <li><a href="#"><i class="fab fa-instagram">Instagram</i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in">Linkedin</i></a></li>
+      </ul>
+    </footer>
+
+    <!-- Login popup -->
+    <div id="login-popup" class="popup">
+      <div class="popup-content">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+          <button id="sign-up-button">Sign-up</button>
+          <button id="forgot-button">Forgot Password</button>
+        </form>
+        <button id="close-button">X</button>
+      </div>
+    </div>
+
+    <script src="mainpagejs.js"></script>
+  </body>
+</html>

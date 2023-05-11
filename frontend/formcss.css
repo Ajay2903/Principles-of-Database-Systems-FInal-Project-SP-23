@@ -1,0 +1,120 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Style for the navigation menu links */
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 70px;
+    margin-right: 10px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .social-links a:hover {
+    color: #ff0;
+  }
+  
